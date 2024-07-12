@@ -1,6 +1,6 @@
 const btn_adicionar = document.querySelector('.btn-add-task');
 const txt_tarefa = document.querySelector('.input-task');
-const listaCompleta = document.querySelector('.list-task')
+const listaCompleta = document.querySelector('.list-task');
 
 let minhaListaDeItens = [];
 
