@@ -38,6 +38,7 @@ function mostrarTarefas(){
     localStorage.setItem('lista', JSON.stringify(minhaListaDeItens))
 
 }
+
 function concluirTarefa(posicao){
     minhaListaDeItens[posicao].concluida = !minhaListaDeItens[posicao].concluida
     mostrarTarefas();
